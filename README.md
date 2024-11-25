@@ -1,5 +1,75 @@
 Fine-Tuning a Vision Language Model (Qwen2-VL-7B) with TRL
 
+# Tech Stack
+
+The Qwen2-VL project uses a powerful set of tools and libraries for model training, optimization, and deployment. Below is the **Tech Stack** that powers this project:
+
+### **Modeling, Optimization & Experiment Tracking**
+
+- **[TRL (Transformers Reinforcement Learning)](https://github.com/huggingface/trl)**  
+  ![TRL Logo](https://avatars.githubusercontent.com/u/14894346?s=200&v=4)  
+  - Reinforcement learning integration for transformer models, used for fine-tuning.
+
+- **[WandB](https://wandb.ai/)**  
+  ![WandB Logo](https://upload.wikimedia.org/wikipedia/commons/7/73/Wandb_logo.png)  
+  - Tool for experiment tracking and hyperparameter tuning.
+
+- **[Hugging Face](https://huggingface.co/)**  
+  ![Hugging Face Logo](https://upload.wikimedia.org/wikipedia/commons/4/4f/Hugging_Face_Logo.svg)  
+  - Leading platform for NLP and vision models, providing model libraries and tools.
+
+- **[DeepSpeed](https://www.deepspeed.ai/)**  
+  ![DeepSpeed Logo](https://raw.githubusercontent.com/microsoft/DeepSpeed/main/docs/img/deepspeed_logo.png)  
+  - Scalable deep learning optimization library for training large models.
+
+### **Programming Languages**
+
+- **[Python](https://www.python.org/)**  
+  ![Python Logo](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg)  
+  - Core programming language for model training, scripting, and deployment.
+
+### **Cloud & Storage**
+
+- **[Alibaba Cloud](https://www.alibabacloud.com/)**  
+  ![Alibaba Cloud Logo](https://upload.wikimedia.org/wikipedia/commons/3/31/Alibaba_Cloud_Logo.svg)  
+  - Cloud infrastructure provider, offering scalable computing services.
+
+- **[OSS (Object Storage Service)](https://www.alibabacloud.com/product/oss)**  
+  ![OSS Logo](https://upload.wikimedia.org/wikipedia/commons/7/79/Alibaba_Cloud_OSS_logo.svg)  
+  - Cloud-based storage solution for vision data management.
+
+- **[CPFS (Cloud Parallel File Storage)](https://www.alibabacloud.com/product/cpfs)**  
+  ![CPFS Logo](https://upload.wikimedia.org/wikipedia/commons/f/f5/Alibaba_Cloud_Centralized_Phone_Service.png)  
+  - Storage for large-scale training data, optimized for parallel access.
+
+### **Model Architectures**
+
+- **[Vision Transformer (ViT)](https://arxiv.org/abs/2010.11929)**  
+  ![ViT Logo](https://upload.wikimedia.org/wikipedia/commons/e/e4/ViT_logo.png)  
+  - Cutting-edge model architecture for image processing.
+
+### **Training & Optimization**
+
+- **[CUDA](https://developer.nvidia.com/cuda-zone)**  
+  ![CUDA Logo](https://upload.wikimedia.org/wikipedia/commons/3/3f/CUDA_logo.svg)  
+  - Parallel computing framework for GPU-accelerated deep learning.
+
+- **[FFmpeg](https://ffmpeg.org/)**  
+  ![FFmpeg Logo](https://upload.wikimedia.org/wikipedia/commons/1/19/FFmpeg_logo.png)  
+  - Tool for video decoding and multimedia processing.
+
+### **Deployment**
+
+- **[Docker](https://www.docker.com/)**  
+  ![Docker Logo](https://upload.wikimedia.org/wikipedia/commons/0/0d/Docker_logo.png)  
+  - Containerization platform for creating reproducible environments.
+
+- **[GitHub](https://github.com/)**  
+  ![GitHub Logo](https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg)  
+  - Code version control and collaboration platform.
+
+---
+
 # Qwen2-VL Model for ChartQA Dataset Fine-Tuning
 
 This project involves fine-tuning the Qwen2-VL-7B model on the **ChartQA dataset**, which is designed to enhance the model's visual question-answering capabilities with images of various charts paired with question-answer pairs.
